@@ -15,15 +15,5 @@ namespace Bekke
 		{
 			
 		}
-
-		public void Use()
-		{
-			
-		}
-
-		public void ActivateItem()
-		{
-			
-		}
 	}
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Bekke
 {
-	class Charackter
+	class CharType : Character
 	{
-		public string Name { get; set; }
-		public string Type { get; set; }
+		public string Hero { get; set; }
+		public string NPC { get; set; }
 	}
 }

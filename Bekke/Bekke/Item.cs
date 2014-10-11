@@ -12,5 +12,15 @@ namespace Bekke
 		public decimal Price { get; set; }
 		public int Level { get; set; }
 		public int Use { get; set; }
+
+		public void UseItem()
+		{
+			
+		}
+
+		public void ActivateItem()
+		{
+
+		}
 	}
 }

@@ -1,38 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Bekke.Hero">
-    <Position X="2.5" Y="2.5" Width="1.5" />
+  <Class Name="Bekke.Character" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <HashCode>AAIAGAAAAIABAAAAAAAABAQAAAAAAAABAQAAIgAAAAA=</HashCode>
+      <FileName>Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bekke.CharType" Collapsed="true">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CharType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bekke.Hero" Collapsed="true">
+    <Position X="5.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAAAAAAAAAAAAgQAAAAAAAAIAAAAAAAEAAAAIAAAA=</HashCode>
       <FileName>Hero.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Bekke.Item">
-    <Position X="5.25" Y="0.5" Width="1.5" />
+  <Class Name="Bekke.Inventory" Collapsed="true">
+    <Position X="7.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAAAQAAAAEAAABAAAAAAAAAAA=</HashCode>
-      <FileName>Item.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Inventory.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Bekke.Potion">
-    <Position X="6.25" Y="2.75" Width="1.5" />
+  <Class Name="Bekke.NPC" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>gAAAAAAAAAACAAAABAAAAAAAAAAEAAAAAAAAAAgAAAA=</HashCode>
+      <HashCode>AAAIAAAAAAAAAAAgQAAAAAAAAIAAAAAAAEAAAAAAQAA=</HashCode>
+      <FileName>NPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bekke.Potion" Collapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAACAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Potion.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Bekke.Weapon">
-    <Position X="4.5" Y="2.75" Width="1.5" />
+  <Class Name="Bekke.Weapon" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAgAAAAAA=</HashCode>
       <FileName>Weapon.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Bekke.Charackter">
-    <Position X="2.5" Y="0.5" Width="1.5" />
+  <Class Name="Bekke.Item" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
-      <FileName>Charackter.cs</FileName>
+      <HashCode>AAAAAAQAAQAAAAAAAAAAAAQAAAAEAAABAAAAAAgAAAA=</HashCode>
+      <FileName>Item.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

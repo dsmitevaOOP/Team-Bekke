@@ -8,9 +8,34 @@ using System.Threading.Tasks;
 
 namespace Bekke
 {
-	class Hero: Charackter
+	class Hero: CharType
 	{
 		public string Warrior { get; set; }
 		public string Mage { get; set; }
+
+		public void Buy()
+		{
+			
+		}
+
+		public void Sell()
+		{
+
+		}
+
+		public void Attack()
+		{
+
+		}
+
+		public void Talk()
+		{
+
+		}
+
+		public void Die()
+		{
+
+		}
 	}
 }

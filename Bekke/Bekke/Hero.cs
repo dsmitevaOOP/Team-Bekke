@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Bekke
 {
-	class Hero: CharType
+    class Hero : Character
 	{
 		public string Warrior { get; set; }
 		public string Mage { get; set; }
@@ -23,19 +23,5 @@ namespace Bekke
 
 		}
 
-		public void Attack()
-		{
-
-		}
-
-		public void Talk()
-		{
-
-		}
-
-		public void Die()
-		{
-
-		}
 	}
 }

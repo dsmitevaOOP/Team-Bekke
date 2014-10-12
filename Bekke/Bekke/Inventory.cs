@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bekke
 {
-	class Inventory
+    class Inventory : Character 
 	{
 		public bool Equipped { get; set; }
 		public bool InBag { get; set; }

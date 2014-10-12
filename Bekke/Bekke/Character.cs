@@ -15,6 +15,21 @@ namespace Bekke
 		public int Mana { get; set; }
 		public List<Item> Inventory { get; set; }
 
+        public void Attack()
+        {
+
+        }
+
+        public void Die()
+        {
+
+        }
+
+        public void Talk()
+        {
+
+        }
+
 		public void Increase()
 		{
 

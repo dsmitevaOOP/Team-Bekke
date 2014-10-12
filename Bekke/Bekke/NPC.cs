@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Bekke
 {
-    public class Npc : Character
+    class Npc : Character
     {
         public bool Friendly { get; set; }
         public bool Unfriendly { get; set; }

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Xml.Serialization;
+using System.IO;
 
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
@@ -9,12 +11,14 @@ using Microsoft.Xna.Framework.Content;
 
 namespace TB
 {
-    class ScreenManager
+  public  class ScreenManager
     {
         private static ScreenManager instance;
         public Vector2 Dimensions { get ;  private set; }
         public ContentManager Content  { get ;  private set;}
-      
+
+        XmlManager<GameScreen> xmlGameScreenManager;
+
         GameScreen currentScreen; 
 
         public static ScreenManager Instance
@@ -29,8 +33,11 @@ namespace TB
         }
         public ScreenManager()
         {
-            Dimensions = new Vector2(640,480);
+            Dimensions = new Vector2(1280,720);
             currentScreen =  new SplashScreen();
+            xmlGameScreenManager = new XmlManager<GameScreen>();
+            xmlGameScreenManager.Type = currentScreen.Type;
+            currentScreen = xmlGameScreenManager.Load("Load/SplashScreen.xml");
         }
 
         public void LoadContent(ContentManager Content)

@@ -20,7 +20,7 @@ namespace TB
        {
            base.LoadContent();
            path = "logoSoftUni";
-           image = content.Load<Texture2D>("logoSoftUni.png");
+           image = content.Load<Texture2D>(path);
        }
         public override void UnloadContent()
         {

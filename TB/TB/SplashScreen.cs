@@ -19,8 +19,8 @@ namespace TB
         public override void LoadContent()
        {
            base.LoadContent();
-           path = "SplashScreen/logoSoftUni";
-           image = content.Load<Texture2D>(path);
+           path = "logoSoftUni";
+           image = content.Load<Texture2D>("logoSoftUni.png");
        }
         public override void UnloadContent()
         {
